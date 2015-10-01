@@ -89,13 +89,19 @@
 	tableView:(UITableView *)tableView
 	didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-	NSString *path = [m_paths objectAtIndex:indexPath.row];
-	ContainerController *c = [[ContainerController alloc] initWithPath:path];
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];    
+    [NSThread detachNewThreadSelector:@selector(openWithThread:) toTarget:self withObject:indexPath];
 
-	if (c != nil) {
-		[self.navigationController pushViewController:c animated:YES];
-	}
+
+}
+-(void)openWithThread:(NSIndexPath *)indexPath
+{
+    NSString *path = [m_paths objectAtIndex:indexPath.row];
+    ContainerController *c = [[ContainerController alloc] initWithPath:path];
+    
+    if (c != nil) {
+        [self.navigationController pushViewController:c animated:YES];
+    }
 }
 
 

@@ -127,6 +127,8 @@
 		A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */; };
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
+		E3EECFE41BBD0B06004E9691 /* CredentialController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3EECFE31BBD0B06004E9691 /* CredentialController.mm */; };
+		E3EECFE51BBD0D14004E9691 /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EECFE11BBD088A004E9691 /* liblcp-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +159,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABA4BADF16ADF5A600161B77;
 			remoteInfo = "ePub3-iOS";
+		};
+		E3EECFDE1BBD088A004E9691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFF9FBF91BA32AA70079F730;
+			remoteInfo = lcp;
+		};
+		E3EECFE01BBD088A004E9691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E32DF8E91BB27FD600B6BF1A;
+			remoteInfo = "lcp-iOS";
+		};
+		E3EECFE61BBD0D1D004E9691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E32DF8C01BB27FD600B6BF1A;
+			remoteInfo = "lcp-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -335,6 +358,9 @@
 		A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0220-20131022.epub"; sourceTree = "<group>"; };
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
 		A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = epubReadingSystem.epub; sourceTree = "<group>"; };
+		E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcp.xcodeproj; path = "readium-drm/LCP/Platform/Apple/lcp.xcodeproj"; sourceTree = "<group>"; };
+		E3EECFE21BBD0B06004E9691 /* CredentialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialController.h; sourceTree = "<group>"; };
+		E3EECFE31BBD0B06004E9691 /* CredentialController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CredentialController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +368,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EECFE51BBD0D14004E9691 /* liblcp-iOS.a in Frameworks */,
 				34D73601186E729400AA361E /* AVFoundation.framework in Frameworks */,
 				34C5534116E15D08003A7C23 /* CFNetwork.framework in Frameworks */,
 				340FC16116BC3B4600346A59 /* CoreGraphics.framework in Frameworks */,
@@ -411,6 +438,7 @@
 				3462FBBF16BC3C8F003C79E1 /* Resources */,
 				3462FBC916BC3CBA003C79E1 /* Supporting Files */,
 				347C58B216BC873700A647B0 /* ePub3.xcodeproj */,
+				E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -646,6 +674,8 @@
 				34B56B4E1722E54A00A5A4B8 /* Settings.m */,
 				341652A616C2F9E700AFDB8B /* SpineItemListController.h */,
 				341652A716C2F9E700AFDB8B /* SpineItemListController.m */,
+				E3EECFE21BBD0B06004E9691 /* CredentialController.h */,
+				E3EECFE31BBD0B06004E9691 /* CredentialController.mm */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -725,6 +755,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E3EECFD81BBD088A004E9691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3EECFDF1BBD088A004E9691 /* liblcp.a */,
+				E3EECFE11BBD088A004E9691 /* liblcp-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -740,6 +779,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E3EECFE71BBD0D1D004E9691 /* PBXTargetDependency */,
 				347C58BF16BC878A00A647B0 /* PBXTargetDependency */,
 			);
 			name = "SDKLauncher-iOS";
@@ -771,6 +811,10 @@
 					ProductGroup = 347C58B316BC873700A647B0 /* Products */;
 					ProjectRef = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
 				},
+				{
+					ProductGroup = E3EECFD81BBD088A004E9691 /* Products */;
+					ProjectRef = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -799,6 +843,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = UnitTests;
 			remoteRef = 347C58BC16BC873700A647B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E3EECFDF1BBD088A004E9691 /* liblcp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblcp.a;
+			remoteRef = E3EECFDE1BBD088A004E9691 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E3EECFE11BBD088A004E9691 /* liblcp-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "liblcp-iOS.a";
+			remoteRef = E3EECFE01BBD088A004E9691 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -907,6 +965,7 @@
 				340535B616BC669C00D4A802 /* ContainerList.m in Sources */,
 				34212FC418F0649500A9109F /* MultipartFormDataParser.m in Sources */,
 				340535AD16BC5F4700D4A802 /* ContainerListController.m in Sources */,
+				E3EECFE41BBD0B06004E9691 /* CredentialController.mm in Sources */,
 				34C4064817A451D100354C33 /* EPubSettings.m in Sources */,
 				34212FC718F0649500A9109F /* HTTPAsyncFileResponse.m in Sources */,
 				34212FD318F0649500A9109F /* DDFileLogger.m in Sources */,
@@ -954,6 +1013,11 @@
 			isa = PBXTargetDependency;
 			name = "ePub3-iOS";
 			targetProxy = 347C58BE16BC878A00A647B0 /* PBXContainerItemProxy */;
+		};
+		E3EECFE71BBD0D1D004E9691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lcp-iOS";
+			targetProxy = E3EECFE61BBD0D1D004E9691 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1046,6 +1110,7 @@
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
+					"${SRCROOT}/readium-drm/LCP/Platform/Apple/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1061,6 +1126,7 @@
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
+					"${SRCROOT}/readium-drm/LCP/Platform/Apple/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
