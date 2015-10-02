@@ -70,7 +70,6 @@
 		3462FBEA16BC40F9003C79E1 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3462FBE316BC40F9003C79E1 /* Default-Portrait@2x.png */; };
 		3462FBEB16BC40F9003C79E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3462FBE416BC40F9003C79E1 /* Default.png */; };
 		3462FBEC16BC40F9003C79E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3462FBE516BC40F9003C79E1 /* Default@2x.png */; };
-		347C58C016BC879400A647B0 /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347C58BB16BC873700A647B0 /* libePub3-iOS.a */; };
 		348200FC183A9D2D007E72E6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348200FB183A9D2D007E72E6 /* MobileCoreServices.framework */; };
 		34B5457C16BCB07800D14838 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B5457B16BCB07800D14838 /* libxml2.dylib */; };
 		34B5457E16BCB08000D14838 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B5457D16BCB08000D14838 /* libz.dylib */; };
@@ -128,38 +127,12 @@
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
 		E3EECFE41BBD0B06004E9691 /* CredentialController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3EECFE31BBD0B06004E9691 /* CredentialController.mm */; };
-		E3EECFE51BBD0D14004E9691 /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EECFE11BBD088A004E9691 /* liblcp-iOS.a */; };
+		FF08971C1BBE218800A729A2 /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF08970D1BBE1A4B00A729A2 /* libePub3-iOS.a */; };
+		FF08971D1BBE218F00A729A2 /* liblcp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EECFDF1BBD088A004E9691 /* liblcp.a */; };
+		FF08971F1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub in Resources */ = {isa = PBXBuildFile; fileRef = FF08971E1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		347C58B816BC873700A647B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ABA72C241655382E003125FF;
-			remoteInfo = ePub3;
-		};
-		347C58BA16BC873700A647B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ABA4BAE016ADF5A600161B77;
-			remoteInfo = "ePub3-iOS";
-		};
-		347C58BC16BC873700A647B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AB61CE4A1694845700299BB1;
-			remoteInfo = UnitTests;
-		};
-		347C58BE16BC878A00A647B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = ABA4BADF16ADF5A600161B77;
-			remoteInfo = "ePub3-iOS";
-		};
 		E3EECFDE1BBD088A004E9691 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
@@ -167,19 +140,26 @@
 			remoteGlobalIDString = FFF9FBF91BA32AA70079F730;
 			remoteInfo = lcp;
 		};
-		E3EECFE01BBD088A004E9691 /* PBXContainerItemProxy */ = {
+		FF08970A1BBE1A4B00A729A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
+			containerPortal = FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E32DF8E91BB27FD600B6BF1A;
-			remoteInfo = "lcp-iOS";
+			remoteGlobalIDString = ABA72C241655382E003125FF;
+			remoteInfo = ePub3;
 		};
-		E3EECFE61BBD0D1D004E9691 /* PBXContainerItemProxy */ = {
+		FF08970C1BBE1A4B00A729A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E32DF8C01BB27FD600B6BF1A;
-			remoteInfo = "lcp-iOS";
+			containerPortal = FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA4BAE016ADF5A600161B77;
+			remoteInfo = "ePub3-iOS";
+		};
+		FF08970E1BBE1A4B00A729A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AB61CE4A1694845700299BB1;
+			remoteInfo = UnitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -298,7 +278,6 @@
 		3462FBE316BC40F9003C79E1 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		3462FBE416BC40F9003C79E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3462FBE516BC40F9003C79E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		347C58B216BC873700A647B0 /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
 		348200FB183A9D2D007E72E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		34B53527170B3E60000D384F /* readium-shared-js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "readium-shared-js"; sourceTree = "<group>"; };
 		34B5457B16BCB07800D14838 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -361,6 +340,8 @@
 		E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcp.xcodeproj; path = "readium-drm/LCP/Platform/Apple/lcp.xcodeproj"; sourceTree = "<group>"; };
 		E3EECFE21BBD0B06004E9691 /* CredentialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialController.h; sourceTree = "<group>"; };
 		E3EECFE31BBD0B06004E9691 /* CredentialController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CredentialController.mm; sourceTree = "<group>"; };
+		FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
+		FF08971E1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc_shared_culture(all_right).epub"; path = "../../SDKLauncher-OSX-drminside/readium-drm/LCP/TestData/[LCP]cc_shared_culture(all_right).epub"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,7 +349,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EECFE51BBD0D14004E9691 /* liblcp-iOS.a in Frameworks */,
+				FF08971D1BBE218F00A729A2 /* liblcp.a in Frameworks */,
+				FF08971C1BBE218800A729A2 /* libePub3-iOS.a in Frameworks */,
 				34D73601186E729400AA361E /* AVFoundation.framework in Frameworks */,
 				34C5534116E15D08003A7C23 /* CFNetwork.framework in Frameworks */,
 				340FC16116BC3B4600346A59 /* CoreGraphics.framework in Frameworks */,
@@ -376,7 +358,6 @@
 				348200FC183A9D2D007E72E6 /* MobileCoreServices.framework in Frameworks */,
 				34DAC6F018D4BD22004F926A /* Security.framework in Frameworks */,
 				340FC15D16BC3B4600346A59 /* UIKit.framework in Frameworks */,
-				347C58C016BC879400A647B0 /* libePub3-iOS.a in Frameworks */,
 				34B5457C16BCB07800D14838 /* libxml2.dylib in Frameworks */,
 				34B5457E16BCB08000D14838 /* libz.dylib in Frameworks */,
 			);
@@ -418,6 +399,7 @@
 		340535B716BC728800D4A802 /* EPub */ = {
 			isa = PBXGroup;
 			children = (
+				FF08971E1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub */,
 				34B56B5D1723158E00A5A4B8 /* childrens-literature-20130206.epub */,
 				340535B816BC729200D4A802 /* moby-dick-20120118.epub */,
 				85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */,
@@ -432,12 +414,12 @@
 		340FC15016BC3B4600346A59 = {
 			isa = PBXGroup;
 			children = (
+				FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */,
 				3462FBB916BC3C43003C79E1 /* Classes */,
 				340FC15B16BC3B4600346A59 /* Frameworks */,
 				340FC15A16BC3B4600346A59 /* Products */,
 				3462FBBF16BC3C8F003C79E1 /* Resources */,
 				3462FBC916BC3CBA003C79E1 /* Supporting Files */,
-				347C58B216BC873700A647B0 /* ePub3.xcodeproj */,
 				E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */,
 			);
 			sourceTree = "<group>";
@@ -745,21 +727,20 @@
 			name = Default;
 			sourceTree = "<group>";
 		};
-		347C58B316BC873700A647B0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				347C58B916BC873700A647B0 /* ePub3.dylib */,
-				347C58BB16BC873700A647B0 /* libePub3-iOS.a */,
-				347C58BD16BC873700A647B0 /* UnitTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E3EECFD81BBD088A004E9691 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				E3EECFDF1BBD088A004E9691 /* liblcp.a */,
-				E3EECFE11BBD088A004E9691 /* liblcp-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0897051BBE1A4B00A729A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF08970B1BBE1A4B00A729A2 /* ePub3.dylib */,
+				FF08970D1BBE1A4B00A729A2 /* libePub3-iOS.a */,
+				FF08970F1BBE1A4B00A729A2 /* UnitTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -779,8 +760,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				E3EECFE71BBD0D1D004E9691 /* PBXTargetDependency */,
-				347C58BF16BC878A00A647B0 /* PBXTargetDependency */,
 			);
 			name = "SDKLauncher-iOS";
 			productName = "SDKLauncher-iOS";
@@ -808,8 +787,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 347C58B316BC873700A647B0 /* Products */;
-					ProjectRef = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
+					ProductGroup = FF0897051BBE1A4B00A729A2 /* Products */;
+					ProjectRef = FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */;
 				},
 				{
 					ProductGroup = E3EECFD81BBD088A004E9691 /* Products */;
@@ -824,27 +803,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		347C58B916BC873700A647B0 /* ePub3.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = ePub3.dylib;
-			remoteRef = 347C58B816BC873700A647B0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		347C58BB16BC873700A647B0 /* libePub3-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libePub3-iOS.a";
-			remoteRef = 347C58BA16BC873700A647B0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		347C58BD16BC873700A647B0 /* UnitTests */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = UnitTests;
-			remoteRef = 347C58BC16BC873700A647B0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		E3EECFDF1BBD088A004E9691 /* liblcp.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -852,11 +810,25 @@
 			remoteRef = E3EECFDE1BBD088A004E9691 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E3EECFE11BBD088A004E9691 /* liblcp-iOS.a */ = {
+		FF08970B1BBE1A4B00A729A2 /* ePub3.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = ePub3.dylib;
+			remoteRef = FF08970A1BBE1A4B00A729A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF08970D1BBE1A4B00A729A2 /* libePub3-iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "liblcp-iOS.a";
-			remoteRef = E3EECFE01BBD088A004E9691 /* PBXContainerItemProxy */;
+			path = "libePub3-iOS.a";
+			remoteRef = FF08970C1BBE1A4B00A729A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF08970F1BBE1A4B00A729A2 /* UnitTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = UnitTests;
+			remoteRef = FF08970E1BBE1A4B00A729A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -895,6 +867,7 @@
 				835846FC1B42DAF6002DA99D /* readium-shared-js_all.js.bundles.js in Resources */,
 				34E12BA2180301A2004DCB68 /* Icon-40@2x.png in Resources */,
 				3436EB2A1790C3F300246925 /* host_app_feedback.js in Resources */,
+				FF08971F1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub in Resources */,
 				835846F31B42D997002DA99D /* reader_RequireJS-multiple-bundles.html in Resources */,
 				34E12BA3180301A2004DCB68 /* Icon-50.png in Resources */,
 				34E12BA6180301A2004DCB68 /* Icon-57@2x.png in Resources */,
@@ -1007,19 +980,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		347C58BF16BC878A00A647B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ePub3-iOS";
-			targetProxy = 347C58BE16BC878A00A647B0 /* PBXContainerItemProxy */;
-		};
-		E3EECFE71BBD0D1D004E9691 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "lcp-iOS";
-			targetProxy = E3EECFE61BBD0D1D004E9691 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3462FBC316BC3C8F003C79E1 /* Localizable.strings */ = {
