@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		14539EAF1BC371AF008B70CA /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14539EAE1BC371AA008B70CA /* liblcp-iOS.a */; };
-		14539EB61BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub in Resources */ = {isa = PBXBuildFile; fileRef = 14539EB41BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub */; };
-		14539EB71BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub in Resources */ = {isa = PBXBuildFile; fileRef = 14539EB51BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub */; };
+		14A8C2B01BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = 14A8C2AC1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-allright.epub */; };
+		14A8C2B11BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = 14A8C2AD1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-expired.epub */; };
+		14A8C2B21BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = 14A8C2AE1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-invalidsignature.epub */; };
+		14A8C2B31BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = 14A8C2AF1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-noprint.epub */; };
 		3403516516CE93F2009E3B88 /* reader.css in Resources */ = {isa = PBXBuildFile; fileRef = 3403516116CE93F2009E3B88 /* reader.css */; };
 		3403516616CE93F2009E3B88 /* reader.html in Resources */ = {isa = PBXBuildFile; fileRef = 3403516216CE93F2009E3B88 /* reader.html */; };
 		340535AA16BC5DD100D4A802 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340535A916BC5DD100D4A802 /* BaseViewController.m */; };
@@ -172,8 +174,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14539EB41BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc_shared_culture(all_right).epub"; path = "readium-drm/LCP/TestData/[LCP]cc_shared_culture(all_right).epub"; sourceTree = SOURCE_ROOT; };
-		14539EB51BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc_shared_culture(expired).epub"; path = "readium-drm/LCP/TestData/[LCP]cc_shared_culture(expired).epub"; sourceTree = SOURCE_ROOT; };
+		14A8C2AC1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-allright.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-allright.epub"; sourceTree = SOURCE_ROOT; };
+		14A8C2AD1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-expired.epub"; sourceTree = SOURCE_ROOT; };
+		14A8C2AE1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
+		14A8C2AF1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-noprint.epub"; sourceTree = SOURCE_ROOT; };
 		3403516116CE93F2009E3B88 /* reader.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reader.css; sourceTree = "<group>"; };
 		3403516216CE93F2009E3B88 /* reader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reader.html; sourceTree = "<group>"; };
 		340535A816BC5DD100D4A802 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -408,8 +412,10 @@
 		340535B716BC728800D4A802 /* EPub */ = {
 			isa = PBXGroup;
 			children = (
-				14539EB41BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub */,
-				14539EB51BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub */,
+				14A8C2AC1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-allright.epub */,
+				14A8C2AD1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-expired.epub */,
+				14A8C2AE1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-invalidsignature.epub */,
+				14A8C2AF1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-noprint.epub */,
 				34B56B5D1723158E00A5A4B8 /* childrens-literature-20130206.epub */,
 				340535B816BC729200D4A802 /* moby-dick-20120118.epub */,
 				85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */,
@@ -863,6 +869,7 @@
 				8358470F1B42DB09002DA99D /* readium-external-libs.js in Resources */,
 				83919F161A1E074200FC8118 /* epubReadingSystem.js in Resources */,
 				8307EC6919E3DE4A00B00468 /* mathjax in Resources */,
+				14A8C2B31BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */,
 				835847181B42DB0A002DA99D /* RequireJS.js in Resources */,
 				34B56B5E1723158E00A5A4B8 /* childrens-literature-20130206.epub in Resources */,
 				3462FBEB16BC40F9003C79E1 /* Default.png in Resources */,
@@ -885,11 +892,12 @@
 				835846FC1B42DAF6002DA99D /* readium-shared-js_all.js.bundles.js in Resources */,
 				34E12BA2180301A2004DCB68 /* Icon-40@2x.png in Resources */,
 				3436EB2A1790C3F300246925 /* host_app_feedback.js in Resources */,
-				14539EB61BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub in Resources */,
 				835846F31B42D997002DA99D /* reader_RequireJS-multiple-bundles.html in Resources */,
 				34E12BA3180301A2004DCB68 /* Icon-50.png in Resources */,
+				14A8C2B21BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */,
 				34E12BA6180301A2004DCB68 /* Icon-57@2x.png in Resources */,
 				835847151B42DB09002DA99D /* readium-shared-js.js in Resources */,
+				14A8C2B01BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-allright.epub in Resources */,
 				835846F51B42D997002DA99D /* reader_RequireJS-single-bundle.html in Resources */,
 				34E12BAA180301A2004DCB68 /* Icon-76.png in Resources */,
 				34E12BA0180301A2004DCB68 /* Icon-29@2x.png in Resources */,
@@ -897,6 +905,7 @@
 				835846F41B42D997002DA99D /* reader_RequireJS-no-optimize.html in Resources */,
 				83EBB4A419F56C1C0083E8F1 /* annotations.css in Resources */,
 				340535B916BC729200D4A802 /* moby-dick-20120118.epub in Resources */,
+				14A8C2B11BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-expired.epub in Resources */,
 				3403516516CE93F2009E3B88 /* reader.css in Resources */,
 				3403516616CE93F2009E3B88 /* reader.html in Resources */,
 				8358470D1B42DB09002DA99D /* readium-cfi-js.js.bundles.js in Resources */,
@@ -908,7 +917,6 @@
 				A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */,
 				A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */,
 				835846FB1B42DAF6002DA99D /* readium-shared-js_all.js in Resources */,
-				14539EB71BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
