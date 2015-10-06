@@ -3,7 +3,9 @@
 	url = https://github.com/readium/readium-shared-js.git
 [submodule "readium-sdk"]
 	path = readium-sdk
-url=https://github.com/drminside/readium-sdk.git
+	url=https://github.com/drminside/readium-sdk.git
+	branch = master
 [submodule "readium-drm"]
 	path = readium-drm
-url=https://github.com/drminside/readium-drm.git
+	url=https://github.com/drminside/readium-drm.git
+	branch = master

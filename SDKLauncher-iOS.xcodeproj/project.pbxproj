@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14539EAF1BC371AF008B70CA /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14539EAE1BC371AA008B70CA /* liblcp-iOS.a */; };
+		14539EB61BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub in Resources */ = {isa = PBXBuildFile; fileRef = 14539EB41BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub */; };
+		14539EB71BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub in Resources */ = {isa = PBXBuildFile; fileRef = 14539EB51BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub */; };
 		3403516516CE93F2009E3B88 /* reader.css in Resources */ = {isa = PBXBuildFile; fileRef = 3403516116CE93F2009E3B88 /* reader.css */; };
 		3403516616CE93F2009E3B88 /* reader.html in Resources */ = {isa = PBXBuildFile; fileRef = 3403516216CE93F2009E3B88 /* reader.html */; };
 		340535AA16BC5DD100D4A802 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340535A916BC5DD100D4A802 /* BaseViewController.m */; };
@@ -128,11 +131,16 @@
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
 		E3EECFE41BBD0B06004E9691 /* CredentialController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3EECFE31BBD0B06004E9691 /* CredentialController.mm */; };
 		FF08971C1BBE218800A729A2 /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF08970D1BBE1A4B00A729A2 /* libePub3-iOS.a */; };
-		FF08971D1BBE218F00A729A2 /* liblcp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EECFDF1BBD088A004E9691 /* liblcp.a */; };
-		FF08971F1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub in Resources */ = {isa = PBXBuildFile; fileRef = FF08971E1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		14539EAD1BC371AA008B70CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E32DF8E91BB27FD600B6BF1A;
+			remoteInfo = "lcp-iOS";
+		};
 		E3EECFDE1BBD088A004E9691 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */;
@@ -164,6 +172,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14539EB41BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc_shared_culture(all_right).epub"; path = "readium-drm/LCP/TestData/[LCP]cc_shared_culture(all_right).epub"; sourceTree = SOURCE_ROOT; };
+		14539EB51BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc_shared_culture(expired).epub"; path = "readium-drm/LCP/TestData/[LCP]cc_shared_culture(expired).epub"; sourceTree = SOURCE_ROOT; };
 		3403516116CE93F2009E3B88 /* reader.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reader.css; sourceTree = "<group>"; };
 		3403516216CE93F2009E3B88 /* reader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reader.html; sourceTree = "<group>"; };
 		340535A816BC5DD100D4A802 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -341,7 +351,6 @@
 		E3EECFE21BBD0B06004E9691 /* CredentialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialController.h; sourceTree = "<group>"; };
 		E3EECFE31BBD0B06004E9691 /* CredentialController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CredentialController.mm; sourceTree = "<group>"; };
 		FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
-		FF08971E1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc_shared_culture(all_right).epub"; path = "../../SDKLauncher-OSX-drminside/readium-drm/LCP/TestData/[LCP]cc_shared_culture(all_right).epub"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,7 +358,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF08971D1BBE218F00A729A2 /* liblcp.a in Frameworks */,
+				14539EAF1BC371AF008B70CA /* liblcp-iOS.a in Frameworks */,
 				FF08971C1BBE218800A729A2 /* libePub3-iOS.a in Frameworks */,
 				34D73601186E729400AA361E /* AVFoundation.framework in Frameworks */,
 				34C5534116E15D08003A7C23 /* CFNetwork.framework in Frameworks */,
@@ -399,7 +408,8 @@
 		340535B716BC728800D4A802 /* EPub */ = {
 			isa = PBXGroup;
 			children = (
-				FF08971E1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub */,
+				14539EB41BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub */,
+				14539EB51BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub */,
 				34B56B5D1723158E00A5A4B8 /* childrens-literature-20130206.epub */,
 				340535B816BC729200D4A802 /* moby-dick-20120118.epub */,
 				85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */,
@@ -731,6 +741,7 @@
 			isa = PBXGroup;
 			children = (
 				E3EECFDF1BBD088A004E9691 /* liblcp.a */,
+				14539EAE1BC371AA008B70CA /* liblcp-iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -803,6 +814,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		14539EAE1BC371AA008B70CA /* liblcp-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "liblcp-iOS.a";
+			remoteRef = 14539EAD1BC371AA008B70CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E3EECFDF1BBD088A004E9691 /* liblcp.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -867,7 +885,7 @@
 				835846FC1B42DAF6002DA99D /* readium-shared-js_all.js.bundles.js in Resources */,
 				34E12BA2180301A2004DCB68 /* Icon-40@2x.png in Resources */,
 				3436EB2A1790C3F300246925 /* host_app_feedback.js in Resources */,
-				FF08971F1BBE23F300A729A2 /* [LCP]cc_shared_culture(all_right).epub in Resources */,
+				14539EB61BC37317008B70CA /* [LCP]cc_shared_culture(all_right).epub in Resources */,
 				835846F31B42D997002DA99D /* reader_RequireJS-multiple-bundles.html in Resources */,
 				34E12BA3180301A2004DCB68 /* Icon-50.png in Resources */,
 				34E12BA6180301A2004DCB68 /* Icon-57@2x.png in Resources */,
@@ -890,6 +908,7 @@
 				A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */,
 				A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */,
 				835846FB1B42DAF6002DA99D /* readium-shared-js_all.js in Resources */,
+				14539EB71BC37317008B70CA /* [LCP]cc_shared_culture(expired).epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

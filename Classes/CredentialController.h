@@ -22,7 +22,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LCP/content_module_lcp.h"
+#import "lcp/content_module_lcp.h"
 
 @interface CredentialController : NSObject <UIAlertViewDelegate>{
     
