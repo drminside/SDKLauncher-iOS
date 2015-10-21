@@ -131,7 +131,6 @@
 		A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */; };
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
-		E3EECFE41BBD0B06004E9691 /* CredentialController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3EECFE31BBD0B06004E9691 /* CredentialController.mm */; };
 		FF08971C1BBE218800A729A2 /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF08970D1BBE1A4B00A729A2 /* libePub3-iOS.a */; };
 /* End PBXBuildFile section */
 
@@ -352,8 +351,6 @@
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
 		A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = epubReadingSystem.epub; sourceTree = "<group>"; };
 		E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcp.xcodeproj; path = "readium-drm/LCP/Platform/Apple/lcp.xcodeproj"; sourceTree = "<group>"; };
-		E3EECFE21BBD0B06004E9691 /* CredentialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialController.h; sourceTree = "<group>"; };
-		E3EECFE31BBD0B06004E9691 /* CredentialController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CredentialController.mm; sourceTree = "<group>"; };
 		FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -672,8 +669,6 @@
 				34B56B4E1722E54A00A5A4B8 /* Settings.m */,
 				341652A616C2F9E700AFDB8B /* SpineItemListController.h */,
 				341652A716C2F9E700AFDB8B /* SpineItemListController.m */,
-				E3EECFE21BBD0B06004E9691 /* CredentialController.h */,
-				E3EECFE31BBD0B06004E9691 /* CredentialController.mm */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -965,7 +960,6 @@
 				340535B616BC669C00D4A802 /* ContainerList.m in Sources */,
 				34212FC418F0649500A9109F /* MultipartFormDataParser.m in Sources */,
 				340535AD16BC5F4700D4A802 /* ContainerListController.m in Sources */,
-				E3EECFE41BBD0B06004E9691 /* CredentialController.mm in Sources */,
 				34C4064817A451D100354C33 /* EPubSettings.m in Sources */,
 				34212FC718F0649500A9109F /* HTTPAsyncFileResponse.m in Sources */,
 				34212FD318F0649500A9109F /* DDFileLogger.m in Sources */,
