@@ -36,6 +36,7 @@
 #import "RDPackage.h"
 #import "SpineItemListController.h"
 
+#import <lcp/LcpInitialize.h>
 
 @interface ContainerController () <
 	RDContainerDelegate,
@@ -290,5 +291,11 @@
 	}
 }
 
+//- (void)containerRegisterContentFilters:(RDContainer *)container{
+//    
+//}
 
+- (void)containerRegisterContentModules:(RDContainer *)container{
+    [[[LcpInitialize alloc] init] lcpInitialize];
+}
 @end
