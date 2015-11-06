@@ -134,11 +134,6 @@
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
 		FF08971C1BBE218800A729A2 /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF08970D1BBE1A4B00A729A2 /* libePub3-iOS.a */; };
 		FF7E77F01BEB86250031BAB0 /* [LCP]cc-shared-culture-151104-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = FF7E77EF1BEB86250031BAB0 /* [LCP]cc-shared-culture-151104-allright.epub */; };
-		FF7E78171BEC500B0031BAB0 /* wasteland-otf-obf.epub in Resources */ = {isa = PBXBuildFile; fileRef = FF7E78121BEC500B0031BAB0 /* wasteland-otf-obf.epub */; };
-		FF7E78181BEC500B0031BAB0 /* wasteland-otf.epub in Resources */ = {isa = PBXBuildFile; fileRef = FF7E78131BEC500B0031BAB0 /* wasteland-otf.epub */; };
-		FF7E78191BEC500B0031BAB0 /* wasteland-woff-obf.epub in Resources */ = {isa = PBXBuildFile; fileRef = FF7E78141BEC500B0031BAB0 /* wasteland-woff-obf.epub */; };
-		FF7E781A1BEC500B0031BAB0 /* wasteland-woff.epub in Resources */ = {isa = PBXBuildFile; fileRef = FF7E78151BEC500B0031BAB0 /* wasteland-woff.epub */; };
-		FF7E781B1BEC500B0031BAB0 /* wasteland.epub in Resources */ = {isa = PBXBuildFile; fileRef = FF7E78161BEC500B0031BAB0 /* wasteland.epub */; };
 		FF7E78231BEC53CC0031BAB0 /* RDContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF7E78221BEC53CC0031BAB0 /* RDContainer.mm */; };
 /* End PBXBuildFile section */
 
@@ -361,11 +356,6 @@
 		E3EECFD71BBD088A004E9691 /* lcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcp.xcodeproj; path = "readium-drm/LCP/Platform/Apple/lcp.xcodeproj"; sourceTree = "<group>"; };
 		FF0897041BBE1A4B00A729A2 /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
 		FF7E77EF1BEB86250031BAB0 /* [LCP]cc-shared-culture-151104-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151104-allright.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151104-allright.epub"; sourceTree = SOURCE_ROOT; };
-		FF7E78121BEC500B0031BAB0 /* wasteland-otf-obf.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "wasteland-otf-obf.epub"; path = "../../Documents/wasteland-otf-obf.epub"; sourceTree = "<group>"; };
-		FF7E78131BEC500B0031BAB0 /* wasteland-otf.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "wasteland-otf.epub"; path = "../../Documents/wasteland-otf.epub"; sourceTree = "<group>"; };
-		FF7E78141BEC500B0031BAB0 /* wasteland-woff-obf.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "wasteland-woff-obf.epub"; path = "../../Documents/wasteland-woff-obf.epub"; sourceTree = "<group>"; };
-		FF7E78151BEC500B0031BAB0 /* wasteland-woff.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "wasteland-woff.epub"; path = "../../Documents/wasteland-woff.epub"; sourceTree = "<group>"; };
-		FF7E78161BEC500B0031BAB0 /* wasteland.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = wasteland.epub; path = ../../Documents/wasteland.epub; sourceTree = "<group>"; };
 		FF7E78211BEC53CC0031BAB0 /* RDContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDContainer.h; sourceTree = "<group>"; };
 		FF7E78221BEC53CC0031BAB0 /* RDContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RDContainer.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -598,11 +588,6 @@
 		340535B716BC728800D4A802 /* EPub */ = {
 			isa = PBXGroup;
 			children = (
-				FF7E78121BEC500B0031BAB0 /* wasteland-otf-obf.epub */,
-				FF7E78131BEC500B0031BAB0 /* wasteland-otf.epub */,
-				FF7E78141BEC500B0031BAB0 /* wasteland-woff-obf.epub */,
-				FF7E78151BEC500B0031BAB0 /* wasteland-woff.epub */,
-				FF7E78161BEC500B0031BAB0 /* wasteland.epub */,
 				FF7E77EF1BEB86250031BAB0 /* [LCP]cc-shared-culture-151104-allright.epub */,
 				14A8C2AD1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-expired.epub */,
 				14A8C2AE1BC3AE3900869C84 /* [LCP]cc-shared-culture-151006-invalidsignature.epub */,
@@ -904,7 +889,6 @@
 				34E12BA7180301A2004DCB68 /* Icon-60@2x.png in Resources */,
 				3462FBE916BC40F9003C79E1 /* Default-Portrait.png in Resources */,
 				34E12B9F180301A2004DCB68 /* Icon-29.png in Resources */,
-				FF7E78171BEC500B0031BAB0 /* wasteland-otf-obf.epub in Resources */,
 				835846F71B42DA05002DA99D /* sdk.css in Resources */,
 				34E12BAB180301A2004DCB68 /* Icon-76@2x.png in Resources */,
 				34E12BA8180301A2004DCB68 /* Icon-72.png in Resources */,
@@ -912,7 +896,6 @@
 				3462FBEA16BC40F9003C79E1 /* Default-Portrait@2x.png in Resources */,
 				835847161B42DB09002DA99D /* readium-shared-js.js.bundles.js in Resources */,
 				835846FC1B42DAF6002DA99D /* readium-shared-js_all.js.bundles.js in Resources */,
-				FF7E781A1BEC500B0031BAB0 /* wasteland-woff.epub in Resources */,
 				34E12BA2180301A2004DCB68 /* Icon-40@2x.png in Resources */,
 				3436EB2A1790C3F300246925 /* host_app_feedback.js in Resources */,
 				835846F31B42D997002DA99D /* reader_RequireJS-multiple-bundles.html in Resources */,
@@ -934,14 +917,11 @@
 				3403516616CE93F2009E3B88 /* reader.html in Resources */,
 				8358470D1B42DB09002DA99D /* readium-cfi-js.js.bundles.js in Resources */,
 				85DE51A117FDDCAC00F55130 /* page-blanche-20130322.epub in Resources */,
-				FF7E781B1BEC500B0031BAB0 /* wasteland.epub in Resources */,
 				34E12BA4180301A2004DCB68 /* Icon-50@2x.png in Resources */,
-				FF7E78181BEC500B0031BAB0 /* wasteland-otf.epub in Resources */,
 				340535BB16BC793700D4A802 /* wasteland-20120118.epub in Resources */,
 				34E12BA1180301A2004DCB68 /* Icon-40.png in Resources */,
 				A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */,
 				A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */,
-				FF7E78191BEC500B0031BAB0 /* wasteland-woff-obf.epub in Resources */,
 				A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */,
 				835846FB1B42DAF6002DA99D /* readium-shared-js_all.js in Resources */,
 			);
