@@ -1,6 +1,6 @@
 [submodule "readium-sdk"]
 	path = readium-sdk
-	url = https://github.com/readium/readium-sdk-1.git
+	url=https://github.com/drminside/readium-sdk-1.git
 	branch = master
 [submodule "Resources/readium-shared-js"]
 	path = Resources/readium-shared-js
