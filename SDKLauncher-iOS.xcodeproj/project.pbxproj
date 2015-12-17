@@ -127,6 +127,15 @@
 		A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */; };
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
+		FFE961EC1C16F09E00FA2A5C /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE961E91C16EEC900FA2A5C /* liblcp-iOS.a */; };
+		FFE961F51C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */; };
+		FFE961F61C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */; };
+		FFE961F71C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */; };
+		FFE961F81C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F01C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub */; };
+		FFE961F91C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F11C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub */; };
+		FFE961FA1C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F21C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub */; };
+		FFE961FB1C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F31C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub */; };
+		FFE961FC1C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F41C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +166,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABA4BADF16ADF5A600161B77;
 			remoteInfo = "ePub3-iOS";
+		};
+		FFE961E61C16EEC900FA2A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFF9FBF91BA32AA70079F730;
+			remoteInfo = lcp;
+		};
+		FFE961E81C16EEC900FA2A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E32DF8E91BB27FD600B6BF1A;
+			remoteInfo = "lcp-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -336,6 +359,15 @@
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
 		A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = epubReadingSystem.epub; sourceTree = "<group>"; };
 		FFE961DC1C16E73100FA2A5C /* drmInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drmInitialize.h; sourceTree = "<group>"; };
+		FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcp.xcodeproj; path = "readium-drm/LCP/Platform/Apple/lcp.xcodeproj"; sourceTree = "<group>"; };
+		FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-expired.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-noprint.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961F01C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151104-allright.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151104-allright.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961F11C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151007-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151007-expired.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961F21C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151007-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151007-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961F31C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151007-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151007-noprint.epub"; sourceTree = SOURCE_ROOT; };
+		FFE961F41C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151104-allright.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151104-allright.epub"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +375,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE961EC1C16F09E00FA2A5C /* liblcp-iOS.a in Frameworks */,
 				34D73601186E729400AA361E /* AVFoundation.framework in Frameworks */,
 				34C5534116E15D08003A7C23 /* CFNetwork.framework in Frameworks */,
 				340FC16116BC3B4600346A59 /* CoreGraphics.framework in Frameworks */,
@@ -392,6 +425,14 @@
 		340535B716BC728800D4A802 /* EPub */ = {
 			isa = PBXGroup;
 			children = (
+				FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */,
+				FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */,
+				FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */,
+				FFE961F01C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub */,
+				FFE961F11C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub */,
+				FFE961F21C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub */,
+				FFE961F31C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub */,
+				FFE961F41C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub */,
 				34B56B5D1723158E00A5A4B8 /* childrens-literature-20130206.epub */,
 				340535B816BC729200D4A802 /* moby-dick-20120118.epub */,
 				85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */,
@@ -406,6 +447,7 @@
 		340FC15016BC3B4600346A59 = {
 			isa = PBXGroup;
 			children = (
+				FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */,
 				3462FBB916BC3C43003C79E1 /* Classes */,
 				340FC15B16BC3B4600346A59 /* Frameworks */,
 				340FC15A16BC3B4600346A59 /* Products */,
@@ -727,6 +769,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FFE961E21C16EEC800FA2A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE961E71C16EEC900FA2A5C /* liblcp.a */,
+				FFE961E91C16EEC900FA2A5C /* liblcp-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -755,7 +806,7 @@
 		340FC15116BC3B4600346A59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "The Readium Foundation";
 			};
 			buildConfigurationList = 340FC15416BC3B4600346A59 /* Build configuration list for PBXProject "SDKLauncher-iOS" */;
@@ -772,6 +823,10 @@
 				{
 					ProductGroup = 347C58B316BC873700A647B0 /* Products */;
 					ProjectRef = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
+				},
+				{
+					ProductGroup = FFE961E21C16EEC800FA2A5C /* Products */;
+					ProjectRef = FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -803,6 +858,20 @@
 			remoteRef = 347C58BC16BC873700A647B0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		FFE961E71C16EEC900FA2A5C /* liblcp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblcp.a;
+			remoteRef = FFE961E61C16EEC900FA2A5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFE961E91C16EEC900FA2A5C /* liblcp-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "liblcp-iOS.a";
+			remoteRef = FFE961E81C16EEC900FA2A5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -810,6 +879,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE961FB1C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub in Resources */,
 				8358471A1B42E789002DA99D /* readium-cfi-js.js.map in Resources */,
 				8358471B1B42E789002DA99D /* readium-external-libs.js.map in Resources */,
 				8358471D1B42E789002DA99D /* readium-shared-js.js.map in Resources */,
@@ -828,11 +898,13 @@
 				835847101B42DB09002DA99D /* readium-external-libs.js.bundles.js in Resources */,
 				3462FBE816BC40F9003C79E1 /* Default-Landscape@2x.png in Resources */,
 				34E12BA7180301A2004DCB68 /* Icon-60@2x.png in Resources */,
+				FFE961FA1C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub in Resources */,
 				3462FBE916BC40F9003C79E1 /* Default-Portrait.png in Resources */,
 				34E12B9F180301A2004DCB68 /* Icon-29.png in Resources */,
 				835846F71B42DA05002DA99D /* sdk.css in Resources */,
 				34E12BAB180301A2004DCB68 /* Icon-76@2x.png in Resources */,
 				34E12BA8180301A2004DCB68 /* Icon-72.png in Resources */,
+				FFE961F71C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */,
 				34E12BA5180301A2004DCB68 /* Icon-57.png in Resources */,
 				3462FBEA16BC40F9003C79E1 /* Default-Portrait@2x.png in Resources */,
 				835847161B42DB09002DA99D /* readium-shared-js.js.bundles.js in Resources */,
@@ -840,6 +912,7 @@
 				34E12BA2180301A2004DCB68 /* Icon-40@2x.png in Resources */,
 				3436EB2A1790C3F300246925 /* host_app_feedback.js in Resources */,
 				835846F31B42D997002DA99D /* reader_RequireJS-multiple-bundles.html in Resources */,
+				FFE961F51C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub in Resources */,
 				34E12BA3180301A2004DCB68 /* Icon-50.png in Resources */,
 				34E12BA6180301A2004DCB68 /* Icon-57@2x.png in Resources */,
 				835847151B42DB09002DA99D /* readium-shared-js.js in Resources */,
@@ -851,13 +924,17 @@
 				83EBB4A419F56C1C0083E8F1 /* annotations.css in Resources */,
 				340535B916BC729200D4A802 /* moby-dick-20120118.epub in Resources */,
 				3403516516CE93F2009E3B88 /* reader.css in Resources */,
+				FFE961F91C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub in Resources */,
 				3403516616CE93F2009E3B88 /* reader.html in Resources */,
 				8358470D1B42DB09002DA99D /* readium-cfi-js.js.bundles.js in Resources */,
+				FFE961F81C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub in Resources */,
 				85DE51A117FDDCAC00F55130 /* page-blanche-20130322.epub in Resources */,
 				34E12BA4180301A2004DCB68 /* Icon-50@2x.png in Resources */,
+				FFE961FC1C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub in Resources */,
 				340535BB16BC793700D4A802 /* wasteland-20120118.epub in Resources */,
 				34E12BA1180301A2004DCB68 /* Icon-40.png in Resources */,
 				A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */,
+				FFE961F61C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */,
 				A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */,
 				A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */,
 				835846FB1B42DAF6002DA99D /* readium-shared-js_all.js in Resources */,
@@ -985,6 +1062,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1045,10 +1123,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"_READIUM_DRM_=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.readium.SDKLauncher.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1064,6 +1148,7 @@
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.readium.SDKLauncher.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
