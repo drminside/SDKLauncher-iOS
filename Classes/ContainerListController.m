@@ -89,26 +89,19 @@
 	tableView:(UITableView *)tableView
 	didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-//	NSString *path = [m_paths objectAtIndex:indexPath.row];
-//	ContainerController *c = [[ContainerController alloc] initWithPath:path];
-//
-//	if (c != nil) {
-//		[self.navigationController pushViewController:c animated:YES];
-//	}
-
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [NSThread detachNewThreadSelector:@selector(openWithThread:) toTarget:self withObject:indexPath];
-}
-
--(void)openWithThread:(NSIndexPath *)indexPath
-{
-    NSString *path = [m_paths objectAtIndex:indexPath.row];
-    ContainerController *c = [[ContainerController alloc] initWithPath:path];
+    dispatch_queue_t backgroundQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(backgroundQueue, ^{
     
-    if (c != nil) {
-        [self.navigationController pushViewController:c animated:YES];
-    }
+        [tableView deselectRowAtIndexPath:indexPath animated:YES];
+        NSString *path = [m_paths objectAtIndex:indexPath.row];
+        ContainerController *c = [[ContainerController alloc] initWithPath:path];
+
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (c != nil) {
+                [self.navigationController pushViewController:c animated:YES];
+            }
+        });
+    });
 }
 
 - (NSInteger)
