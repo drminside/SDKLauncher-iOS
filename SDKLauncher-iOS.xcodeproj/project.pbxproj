@@ -128,7 +128,7 @@
 		A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */; };
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
-		FFADB0D01C77186400DCC386 /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFADB0CF1C77186400DCC386 /* liblcp-iOS.a */; };
+		FFADB0D91C77291D00DCC386 /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFADB0D81C77291D00DCC386 /* liblcp-iOS.a */; };
 		FFE961F51C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */; };
 		FFE961F61C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */; };
 		FFE961F71C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */; };
@@ -346,7 +346,7 @@
 		A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0220-20131022.epub"; sourceTree = "<group>"; };
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
 		A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = epubReadingSystem.epub; sourceTree = "<group>"; };
-		FFADB0CF1C77186400DCC386 /* liblcp-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liblcp-iOS.a"; path = "readium-drm/LCP/Platform/Apple/IOS/lib/liblcp-iOS.a"; sourceTree = "<group>"; };
+		FFADB0D81C77291D00DCC386 /* liblcp-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liblcp-iOS.a"; path = "readium-drm/LCP/Platform/Apple/IOS/lib/liblcp-iOS.a"; sourceTree = "<group>"; };
 		FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-expired.epub"; sourceTree = SOURCE_ROOT; };
 		FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
 		FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-noprint.epub"; sourceTree = SOURCE_ROOT; };
@@ -363,7 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D73601186E729400AA361E /* AVFoundation.framework in Frameworks */,
-				FFADB0D01C77186400DCC386 /* liblcp-iOS.a in Frameworks */,
+				FFADB0D91C77291D00DCC386 /* liblcp-iOS.a in Frameworks */,
 				34C5534116E15D08003A7C23 /* CFNetwork.framework in Frameworks */,
 				340FC16116BC3B4600346A59 /* CoreGraphics.framework in Frameworks */,
 				340FC15F16BC3B4600346A59 /* Foundation.framework in Frameworks */,
@@ -455,7 +455,7 @@
 		340FC15B16BC3B4600346A59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFADB0CF1C77186400DCC386 /* liblcp-iOS.a */,
+				FFADB0D81C77291D00DCC386 /* liblcp-iOS.a */,
 				34D73600186E729400AA361E /* AVFoundation.framework */,
 				34C5534016E15D08003A7C23 /* CFNetwork.framework */,
 				340FC16016BC3B4600346A59 /* CoreGraphics.framework */,
@@ -1047,6 +1047,9 @@
 				);
 				INFOPLIST_FILE = "SDKLauncher-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_GENERATE_MAP_FILE = NO;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib";
+				LLVM_LTO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1078,6 +1081,9 @@
 				);
 				INFOPLIST_FILE = "SDKLauncher-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_GENERATE_MAP_FILE = NO;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib";
+				LLVM_LTO = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1088,8 +1094,11 @@
 		340FC17716BC3B4600346A59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1101,13 +1110,23 @@
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
 					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/Include",
 				);
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib",
 				);
+				LLVM_LTO = YES;
+				MODULEMAP_FILE = "";
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRELINK_LIBS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.readium.SDKLauncher.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				REEXPORTED_LIBRARY_NAMES = "";
+				REEXPORTED_LIBRARY_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1117,6 +1136,8 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "_READIUM_DRM_=1";
 				HEADER_SEARCH_PATHS = (
@@ -1124,13 +1145,22 @@
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
 					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/Include",
 				);
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib",
 				);
+				LLVM_LTO = YES;
+				MODULEMAP_FILE = "";
+				New_Setting = "";
+				PRELINK_LIBS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.readium.SDKLauncher.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				REEXPORTED_LIBRARY_NAMES = "";
+				REEXPORTED_LIBRARY_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
