@@ -129,14 +129,7 @@
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
 		FFADB0D91C77291D00DCC386 /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFADB0D81C77291D00DCC386 /* liblcp-iOS.a */; };
-		FFE961F51C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */; };
-		FFE961F61C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */; };
-		FFE961F71C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */; };
-		FFE961F81C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F01C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub */; };
-		FFE961F91C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F11C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub */; };
-		FFE961FA1C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F21C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub */; };
-		FFE961FB1C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F31C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub */; };
-		FFE961FC1C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961F41C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub */; };
+		FFADB0DF1C7740F400DCC386 /* [LCP]cc-shared-culture-151104-allright.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFADB0DE1C7740F400DCC386 /* [LCP]cc-shared-culture-151104-allright.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,14 +340,7 @@
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
 		A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = epubReadingSystem.epub; sourceTree = "<group>"; };
 		FFADB0D81C77291D00DCC386 /* liblcp-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liblcp-iOS.a"; path = "readium-drm/LCP/Platform/Apple/IOS/lib/liblcp-iOS.a"; sourceTree = "<group>"; };
-		FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-expired.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-noprint.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961F01C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151104-allright.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151104-allright.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961F11C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151007-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151007-expired.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961F21C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151007-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151007-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961F31C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151007-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151007-noprint.epub"; sourceTree = SOURCE_ROOT; };
-		FFE961F41C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]trees-151104-allright.epub"; path = "readium-drm/LCP/TestData/[LCP]trees-151104-allright.epub"; sourceTree = SOURCE_ROOT; };
+		FFADB0DE1C7740F400DCC386 /* [LCP]cc-shared-culture-151104-allright.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "[LCP]cc-shared-culture-151104-allright.epub"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,14 +399,7 @@
 		340535B716BC728800D4A802 /* EPub */ = {
 			isa = PBXGroup;
 			children = (
-				FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */,
-				FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */,
-				FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */,
-				FFE961F01C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub */,
-				FFE961F11C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub */,
-				FFE961F21C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub */,
-				FFE961F31C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub */,
-				FFE961F41C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub */,
+				FFADB0DE1C7740F400DCC386 /* [LCP]cc-shared-culture-151104-allright.epub */,
 				34B56B5D1723158E00A5A4B8 /* childrens-literature-20130206.epub */,
 				340535B816BC729200D4A802 /* moby-dick-20120118.epub */,
 				85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */,
@@ -845,7 +824,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE961FB1C16F4DE00FA2A5C /* [LCP]trees-151007-noprint.epub in Resources */,
 				8358471A1B42E789002DA99D /* readium-cfi-js.js.map in Resources */,
 				8358471B1B42E789002DA99D /* readium-external-libs.js.map in Resources */,
 				8358471D1B42E789002DA99D /* readium-shared-js.js.map in Resources */,
@@ -854,6 +832,7 @@
 				83919F161A1E074200FC8118 /* epubReadingSystem.js in Resources */,
 				8307EC6919E3DE4A00B00468 /* mathjax in Resources */,
 				835847181B42DB0A002DA99D /* RequireJS.js in Resources */,
+				FFADB0DF1C7740F400DCC386 /* [LCP]cc-shared-culture-151104-allright.epub in Resources */,
 				34B56B5E1723158E00A5A4B8 /* childrens-literature-20130206.epub in Resources */,
 				3462FBEB16BC40F9003C79E1 /* Default.png in Resources */,
 				34E12BA9180301A2004DCB68 /* Icon-72@2x.png in Resources */,
@@ -864,13 +843,11 @@
 				835847101B42DB09002DA99D /* readium-external-libs.js.bundles.js in Resources */,
 				3462FBE816BC40F9003C79E1 /* Default-Landscape@2x.png in Resources */,
 				34E12BA7180301A2004DCB68 /* Icon-60@2x.png in Resources */,
-				FFE961FA1C16F4DE00FA2A5C /* [LCP]trees-151007-invalidsignature.epub in Resources */,
 				3462FBE916BC40F9003C79E1 /* Default-Portrait.png in Resources */,
 				34E12B9F180301A2004DCB68 /* Icon-29.png in Resources */,
 				835846F71B42DA05002DA99D /* sdk.css in Resources */,
 				34E12BAB180301A2004DCB68 /* Icon-76@2x.png in Resources */,
 				34E12BA8180301A2004DCB68 /* Icon-72.png in Resources */,
-				FFE961F71C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */,
 				34E12BA5180301A2004DCB68 /* Icon-57.png in Resources */,
 				3462FBEA16BC40F9003C79E1 /* Default-Portrait@2x.png in Resources */,
 				835847161B42DB09002DA99D /* readium-shared-js.js.bundles.js in Resources */,
@@ -878,7 +855,6 @@
 				34E12BA2180301A2004DCB68 /* Icon-40@2x.png in Resources */,
 				3436EB2A1790C3F300246925 /* host_app_feedback.js in Resources */,
 				835846F31B42D997002DA99D /* reader_RequireJS-multiple-bundles.html in Resources */,
-				FFE961F51C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub in Resources */,
 				34E12BA3180301A2004DCB68 /* Icon-50.png in Resources */,
 				34E12BA6180301A2004DCB68 /* Icon-57@2x.png in Resources */,
 				835847151B42DB09002DA99D /* readium-shared-js.js in Resources */,
@@ -890,17 +866,13 @@
 				83EBB4A419F56C1C0083E8F1 /* annotations.css in Resources */,
 				340535B916BC729200D4A802 /* moby-dick-20120118.epub in Resources */,
 				3403516516CE93F2009E3B88 /* reader.css in Resources */,
-				FFE961F91C16F4DE00FA2A5C /* [LCP]trees-151007-expired.epub in Resources */,
 				3403516616CE93F2009E3B88 /* reader.html in Resources */,
 				8358470D1B42DB09002DA99D /* readium-cfi-js.js.bundles.js in Resources */,
-				FFE961F81C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151104-allright.epub in Resources */,
 				85DE51A117FDDCAC00F55130 /* page-blanche-20130322.epub in Resources */,
 				34E12BA4180301A2004DCB68 /* Icon-50@2x.png in Resources */,
-				FFE961FC1C16F4DE00FA2A5C /* [LCP]trees-151104-allright.epub in Resources */,
 				340535BB16BC793700D4A802 /* wasteland-20120118.epub in Resources */,
 				34E12BA1180301A2004DCB68 /* Icon-40.png in Resources */,
 				A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */,
-				FFE961F61C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */,
 				A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */,
 				A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */,
 				835846FB1B42DAF6002DA99D /* readium-shared-js_all.js in Resources */,
@@ -1108,13 +1080,13 @@
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
-					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/Include",
+					"$(PROJECT_DIR)/readium-drm-lib/LCP/Platform/Apple/IOS/Include",
 				);
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib",
+					"$(PROJECT_DIR)/readium-drm-lib/LCP/Platform/Apple/IOS/lib",
 				);
 				LLVM_LTO = YES;
 				MODULEMAP_FILE = "";
@@ -1143,13 +1115,13 @@
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
-					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/Include",
+					"$(PROJECT_DIR)/readium-drm-lib/LCP/Platform/Apple/IOS/Include",
 				);
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib",
+					"$(PROJECT_DIR)/readium-drm-lib/LCP/Platform/Apple/IOS/lib",
 				);
 				LLVM_LTO = YES;
 				MODULEMAP_FILE = "";
