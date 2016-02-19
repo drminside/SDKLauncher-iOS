@@ -128,7 +128,7 @@
 		A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */; };
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
 		A250DD9ED6B68B6BD9F73160 /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */; };
-		FFE961EC1C16F09E00FA2A5C /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE961E91C16EEC900FA2A5C /* liblcp-iOS.a */; };
+		FFADB0D01C77186400DCC386 /* liblcp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFADB0CF1C77186400DCC386 /* liblcp-iOS.a */; };
 		FFE961F51C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */; };
 		FFE961F61C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */; };
 		FFE961F71C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub in Resources */ = {isa = PBXBuildFile; fileRef = FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */; };
@@ -167,20 +167,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABA4BADF16ADF5A600161B77;
 			remoteInfo = "ePub3-iOS";
-		};
-		FFE961E61C16EEC900FA2A5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FFF9FBF91BA32AA70079F730;
-			remoteInfo = lcp;
-		};
-		FFE961E81C16EEC900FA2A5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E32DF8E91BB27FD600B6BF1A;
-			remoteInfo = "lcp-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -360,8 +346,7 @@
 		A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0220-20131022.epub"; sourceTree = "<group>"; };
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
 		A250DD41B691E2CA16B1735D /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = epubReadingSystem.epub; sourceTree = "<group>"; };
-		FFE961DC1C16E73100FA2A5C /* drmInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drmInitialize.h; sourceTree = "<group>"; };
-		FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcp.xcodeproj; path = "readium-drm/LCP/Platform/Apple/lcp.xcodeproj"; sourceTree = "<group>"; };
+		FFADB0CF1C77186400DCC386 /* liblcp-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liblcp-iOS.a"; path = "readium-drm/LCP/Platform/Apple/IOS/lib/liblcp-iOS.a"; sourceTree = "<group>"; };
 		FFE961ED1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-expired.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-expired.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-expired.epub"; sourceTree = SOURCE_ROOT; };
 		FFE961EE1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-invalidsignature.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-invalidsignature.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-invalidsignature.epub"; sourceTree = SOURCE_ROOT; };
 		FFE961EF1C16F4DE00FA2A5C /* [LCP]cc-shared-culture-151006-noprint.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "[LCP]cc-shared-culture-151006-noprint.epub"; path = "readium-drm/LCP/TestData/[LCP]cc-shared-culture-151006-noprint.epub"; sourceTree = SOURCE_ROOT; };
@@ -377,8 +362,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE961EC1C16F09E00FA2A5C /* liblcp-iOS.a in Frameworks */,
 				34D73601186E729400AA361E /* AVFoundation.framework in Frameworks */,
+				FFADB0D01C77186400DCC386 /* liblcp-iOS.a in Frameworks */,
 				34C5534116E15D08003A7C23 /* CFNetwork.framework in Frameworks */,
 				340FC16116BC3B4600346A59 /* CoreGraphics.framework in Frameworks */,
 				340FC15F16BC3B4600346A59 /* Foundation.framework in Frameworks */,
@@ -450,7 +435,6 @@
 		340FC15016BC3B4600346A59 = {
 			isa = PBXGroup;
 			children = (
-				FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */,
 				3462FBB916BC3C43003C79E1 /* Classes */,
 				340FC15B16BC3B4600346A59 /* Frameworks */,
 				340FC15A16BC3B4600346A59 /* Products */,
@@ -471,6 +455,7 @@
 		340FC15B16BC3B4600346A59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFADB0CF1C77186400DCC386 /* liblcp-iOS.a */,
 				34D73600186E729400AA361E /* AVFoundation.framework */,
 				34C5534016E15D08003A7C23 /* CFNetwork.framework */,
 				340FC16016BC3B4600346A59 /* CoreGraphics.framework */,
@@ -658,7 +643,6 @@
 		345CA3E116C00EE100B8B56A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				FFE961DC1C16E73100FA2A5C /* drmInitialize.h */,
 				3462FBBA16BC3C43003C79E1 /* AppDelegate.h */,
 				3462FBBB16BC3C43003C79E1 /* AppDelegate.m */,
 				340535A816BC5DD100D4A802 /* BaseViewController.h */,
@@ -773,15 +757,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFE961E21C16EEC800FA2A5C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FFE961E71C16EEC900FA2A5C /* liblcp.a */,
-				FFE961E91C16EEC900FA2A5C /* liblcp-iOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -814,7 +789,7 @@
 				ORGANIZATIONNAME = "The Readium Foundation";
 				TargetAttributes = {
 					340FC15816BC3B4600346A59 = {
-						DevelopmentTeam = NB74F5L25E;
+						DevelopmentTeam = G7X5YXST42;
 					};
 				};
 			};
@@ -832,10 +807,6 @@
 				{
 					ProductGroup = 347C58B316BC873700A647B0 /* Products */;
 					ProjectRef = 347C58B216BC873700A647B0 /* ePub3.xcodeproj */;
-				},
-				{
-					ProductGroup = FFE961E21C16EEC800FA2A5C /* Products */;
-					ProjectRef = FFE961E11C16EEC800FA2A5C /* lcp.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -865,20 +836,6 @@
 			fileType = "compiled.mach-o.executable";
 			path = UnitTests;
 			remoteRef = 347C58BC16BC873700A647B0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FFE961E71C16EEC900FA2A5C /* liblcp.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = liblcp.a;
-			remoteRef = FFE961E61C16EEC900FA2A5C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FFE961E91C16EEC900FA2A5C /* liblcp-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "liblcp-iOS.a";
-			remoteRef = FFE961E81C16EEC900FA2A5C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1142,6 +1099,11 @@
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
+					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/Include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.readium.SDKLauncher.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1156,9 +1118,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "_READIUM_DRM_=1";
 				HEADER_SEARCH_PATHS = (
 					"${SDKROOT}/usr/include/libxml2",
 					"${SRCROOT}/readium-sdk/Platform/Apple/include",
+					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/Include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/readium-drm/LCP/Platform/Apple/IOS/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.readium.SDKLauncher.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
